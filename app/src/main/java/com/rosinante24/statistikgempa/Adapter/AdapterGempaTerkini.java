@@ -41,11 +41,11 @@ public class AdapterGempaTerkini extends RecyclerView.Adapter<AdapterGempaTerkin
     @Override
     public void onBindViewHolder(ViewHolder holder, int position) {
 
-        holder.textwaktu.setText(dataGempaTerkiniList.get(position).getWaktugempaterkini());
-        holder.textlintang.setText(dataGempaTerkiniList.get(position).getLintangbujurgempaterkini());
-        holder.textmagnitudo.setText(dataGempaTerkiniList.get(position).getMagnitudogempaterkini());
-        holder.textkedalamangempa.setText(dataGempaTerkiniList.get(position).getKedalamangempaterkini());
-        holder.textwilayah.setText(dataGempaTerkiniList.get(position).getWilayahgempaterkini());
+        holder.textwaktu.setText("Waktu gempa : " + dataGempaTerkiniList.get(position).getWaktugempaterkini());
+        holder.textlintang.setText("Lintang bujur gempa : " + dataGempaTerkiniList.get(position).getLintangbujurgempaterkini());
+        holder.textmagnitudo.setText("Magnitudo : " + dataGempaTerkiniList.get(position).getMagnitudogempaterkini());
+        holder.textkedalamangempa.setText("Kedalaman gempa : " + dataGempaTerkiniList.get(position).getKedalamangempaterkini());
+        holder.textwilayah.setText("Wilayah : " + dataGempaTerkiniList.get(position).getWilayahgempaterkini());
         Glide.with(fragmentActivity)
                 .load(dataGempaTerkiniList.get(position).getUrlimagegempaterkini())
                 .placeholder(R.mipmap.ic_launcher_round)

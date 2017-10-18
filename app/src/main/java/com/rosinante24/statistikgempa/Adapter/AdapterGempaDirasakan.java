@@ -51,11 +51,11 @@ public class AdapterGempaDirasakan extends RecyclerView.Adapter<AdapterGempaDira
                 .placeholder(R.mipmap.ic_launcher_round)
                 .into(holder.imageitem2);
 
-        holder.textWaktu2.setText(dataGempaDirasakanList.get(position).getWaktugempadirasakan());
-        holder.textLintang2.setText(dataGempaDirasakanList.get(position).getLintangbujurgempadirasakan());
-        holder.textMagnitudo2.setText(dataGempaDirasakanList.get(position).getMagnitudogempadirasakan());
-        holder.textKedalaman2.setText(dataGempaDirasakanList.get(position).getKedalamangempadirasakan());
-        holder.textWilayah2.setText(dataGempaDirasakanList.get(position).getWilayahgempadirasakan());
+        holder.textWaktu2.setText("Waktu gempa : " + dataGempaDirasakanList.get(position).getWaktugempadirasakan());
+        holder.textLintang2.setText("Lintang bujur gempa : " + dataGempaDirasakanList.get(position).getLintangbujurgempadirasakan());
+        holder.textMagnitudo2.setText("Magnitudo : " + dataGempaDirasakanList.get(position).getMagnitudogempadirasakan());
+        holder.textKedalaman2.setText("Kedalaman gempa : " + dataGempaDirasakanList.get(position).getKedalamangempadirasakan());
+        holder.textWilayah2.setText("Wlayah : " + dataGempaDirasakanList.get(position).getWilayahgempadirasakan());
     }
 
     @Override
