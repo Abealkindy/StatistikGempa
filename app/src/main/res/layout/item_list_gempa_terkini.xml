@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carditem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/jarak10dp"
+        app:cardCornerRadius="@dimen/jarak10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/jarak10dp">
+
+            <ImageView
+                android:id="@+id/imageitem"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/jarak170dp" />
+
+            <TextView
+                android:id="@+id/textwaktu"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textlintang"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textmagnitudo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textkedalamangempa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textwilayah"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>

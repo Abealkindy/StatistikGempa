@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/carditemearthquake"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/jarak10dp"
+        app:cardCornerRadius="@dimen/jarak10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/jarak10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageitem2"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/jarak170dp" />
+
+            <TextView
+                android:id="@+id/textWaktu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak10dp" />
+
+            <TextView
+                android:id="@+id/textLintang2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textMagnitudo2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textKedalaman2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:id="@+id/textWilayah2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp"
+                android:text="@string/gempa_dirasakan" />
+
+            <TextView
+                android:id="@+id/isigempadirasakan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/jarak10dp"
+                android:layout_marginTop="@dimen/jarak5dp" />
+
+
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
